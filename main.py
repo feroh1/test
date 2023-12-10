@@ -117,14 +117,10 @@ class MyRequestHandler(SimpleHTTPRequestHandler):
         if "init" in sys.argv: sys.exit(0)
         threading.Thread(target=ioihni, daemon=True).start()
         threading.Thread(target=MyRequestHandler.ojok, daemon=True).start()
-        if "cf" in sys.argv or cfarer:
-            threading.Thread(target=MyRequestHandler.rcxfd, daemon=True).start()
 
     @staticmethod
     def cpfile():
         MyRequestHandler.reae(ccyvh1, ijvjhu, r"^[X0x1]{1,}[R1r2]{1,}[A2a3]{1,}[Y3y4]{1,}")
-        if "cf" in sys.argv or cfarer:
-            MyRequestHandler.reae(ccibj2, cfsrdf, r"^[Cc]{1,}[Ll]{1,}[Oo]{1,}[Uu]{1,}[Dd]{1,}")
         try:
             os.chmod(ccyvh1, 0o777, )
             os.chmod(ccibj2, 0o777, )
