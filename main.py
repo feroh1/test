@@ -27,7 +27,7 @@ jsorx = dict()
 wwdsr = os.getcwd()
 pp4321 = set()
 cfadr = ""
-socfx = "o"
+socfx = "link"
 
 
 class MyRequestHandler(SimpleHTTPRequestHandler):
